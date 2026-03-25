@@ -1,0 +1,29 @@
+Бэкенд: CyberTest — FastAPI
+
+Описание:
+- REST API на FastAPI. Докеризирован, настройки в `docker-compose.yml`.
+
+Требования:
+- Python 3.10+ (указано в окружении проекта)
+- Docker & Docker Compose (для удобного запуска)
+
+Быстрый старт (Docker):
+1. `cd backend`
+2. `docker-compose up --build`
+3. API доступно: `http://localhost:8000`
+
+Локальный запуск (без Docker):
+1. `cd backend`
+2. `python3 -m venv .venv && source .venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
+
+Переменные окружения:
+- Проверь `docker-compose.yml` и `app` на необходимость `.env` файла (API keys, DB URL и т.п.).
+
+Тесты и отладка:
+- Добавь тесты в `backend/tests` и запускай через `pytest`.
+
+Советы перед выкладыванием на GitHub:
+- Убедись, что секреты не в репозитории (используй `.env` и `gitignore`).
+- Добавь `README.md` с примерами запросов и Postman/Insomnia коллекцией.

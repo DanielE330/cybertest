@@ -82,7 +82,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'Тест по кибербезопасности',
+                'Тесты онлайн',
                 style: theme.textTheme.headlineSmall,
               ),
               const SizedBox(height: 30),
