@@ -1,31 +1,45 @@
-Проект: CyberTest
+# 🧪 CyberTest
 
-Кратко:
-- Монорепозиторий с бэкендом на Python (FastAPI) в папке `backend` и фронтендом на Flutter в папке `cybertest`.
+> Приложение для тестирования студентов — монорепозиторий с бэкендом на FastAPI и фронтендом на Flutter.
 
-Быстрый старт:
-- Запустить бэкенд (Docker):
-  - `cd backend`
-  - `docker-compose up --build`
-- Локально (без Docker):
-  - `python3 -m venv .venv && source .venv/bin/activate`
-  - `pip install -r requirements.txt`
-  - `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
-- Запустить фронтенд (Flutter):
-  - `cd cybertest`
-  - `flutter pub get`
-  - `flutter run` (или `flutter build` для релиза)
+---
 
-Структура проекта (важное):
-- `backend/` — API, Docker compose, инструкции запуска.
-- `cybertest/` — Flutter приложение (мобильные/веб сборки).
+## 📂 Структура
 
-Контрибьюция:
-- Форки → ветка `feat/описание` → PR с описанием изменений.
-- Следуй существующим код-стайлам и линтерам (если есть).
+| Папка | Что внутри |
+|---|---|
+| [`backend/`](https://github.com/DanielE330/test-online/tree/main/backend) | API на FastAPI, Docker Compose, эндпоинты (`ENDPOINTS.md`) |
+| [`cybertest/`](https://github.com/DanielE330/test-online/tree/main/cybertest) | Flutter-приложение (мобильные/веб сборки) |
 
-Контакты / авторы:
-- Добавь здесь свои контакты или ссылку на профиль GitHub.
+## 🏃 Быстрый старт
 
-Лицензия:
-- Добавь `LICENSE` в корень репозитория (например, MIT) перед публикацией.
+### Бэкенд (с Docker)
+```bash
+cd backend
+docker-compose up --build
+```
+
+### Бэкенд (локально)
+```bash
+cd backend
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+### Фронтенд
+```bash
+cd cybertest
+flutter pub get
+flutter run          # или flutter build для релиза
+```
+
+## 📖 Документация
+
+- [`backend/ENDPOINTS.md`](https://github.com/DanielE330/test-online/blob/main/backend/ENDPOINTS.md) — список API-эндпоинтов
+- [`backend/QUICK_REFERENCE.md`](https://github.com/DanielE330/test-online/blob/main/backend/QUICK_REFERENCE.md) — быстрая справка
+- [`cybertest/SETUP_AUTH.md`](https://github.com/DanielE330/test-online/blob/main/cybertest/SETUP_AUTH.md) — настройка авторизации
+
+## 🔑 Как контрибьютить
+
+Форк → ветка `feat/описание` → PR с описанием изменений, следуя существующему код-стайлу.
