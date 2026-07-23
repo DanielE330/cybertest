@@ -8,8 +8,8 @@
 
 | Папка | Что внутри |
 |---|---|
-| [`backend/`](https://github.com/DanielE330/test-online/tree/main/backend) | API на FastAPI, Docker Compose, эндпоинты (`ENDPOINTS.md`) |
-| [`cybertest/`](https://github.com/DanielE330/test-online/tree/main/cybertest) | Flutter-приложение (мобильные/веб сборки) |
+| [`backend/`](https://github.com/DanielE330/cybertest/tree/main/backend) | API на FastAPI, Docker Compose, эндпоинты (`ENDPOINTS.md`) |
+| [`cybertest/`](https://github.com/DanielE330/cybertest/tree/main/cybertest) | Flutter-приложение (мобильные/веб сборки) |
 
 ## 🏃 Быстрый старт
 
@@ -36,9 +36,9 @@ flutter run          # или flutter build для релиза
 
 ## 📖 Документация
 
-- [`backend/ENDPOINTS.md`](https://github.com/DanielE330/test-online/blob/main/backend/ENDPOINTS.md) — список API-эндпоинтов
-- [`backend/QUICK_REFERENCE.md`](https://github.com/DanielE330/test-online/blob/main/backend/QUICK_REFERENCE.md) — быстрая справка
-- [`cybertest/SETUP_AUTH.md`](https://github.com/DanielE330/test-online/blob/main/cybertest/SETUP_AUTH.md) — настройка авторизации
+- [`backend/ENDPOINTS.md`](https://github.com/DanielE330/cybertest/blob/main/backend/ENDPOINTS.md) — список API-эндпоинтов
+- [`backend/QUICK_REFERENCE.md`](https://github.com/DanielE330/cybertest/blob/main/backend/QUICK_REFERENCE.md) — быстрая справка
+- [`cybertest/SETUP_AUTH.md`](https://github.com/DanielE330/cybertest/blob/main/cybertest/SETUP_AUTH.md) — настройка авторизации
 
 ## 🔑 Как контрибьютить
 
